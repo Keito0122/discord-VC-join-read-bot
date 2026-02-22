@@ -1,3 +1,8 @@
+"""
+discord-VC-join-read-bot
+Copyright (c) 2026 Keito0122
+Licensed under the Apache License 2.0
+"""
 import discord
 from discord.ext import commands
 import json
@@ -306,6 +311,7 @@ async def setting(interaction: discord.Interaction):
         view=SettingView(),
         ephemeral=True
     )
+
 
 
 bot.run(TOKEN)
